@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntegracionWats</string>
+    <string name="title_activity_whats">ActivityWhats</string>
+</resources>

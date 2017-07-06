@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="oscar.org.integracionwats.MainActivity">
+
+    <!--
+    Esta componente visual TextView sirve para poner textos estaticos
+    la propiedad gravity:center sirve para centrar horizontalmente
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Bienvenido!!!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="16dp"
+        android:text="Esta app te permite abrir Whats desde la aplicación"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Ingresar a la app"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/blanco"
+        android:id="@+id/boton"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+      <ImageView
+          android:layout_width="match_parent"
+          android:src="@drawable/grumpy_bear"
+          android:layout_gravity="center"
+          android:layout_height="wrap_content" />
+
+</LinearLayout>
